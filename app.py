@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 import base64
 
 # 1. 페이지 설정
-st.set_page_config(page_title="지연이의 첫 번째 생일", page_icon="✨", layout="centered")
+st.set_page_config(page_title="지연이의 돌잔치에 초대합니다", page_icon="✨", layout="centered")
 
 # [함수] 이미지 텍스트 변환
 def get_b64(path):
@@ -34,11 +34,11 @@ iframe { border: none; margin-top: 10px !important; margin-bottom: -20px !import
 # 3. 타이틀 섹션
 st.markdown("""
 <div style="text-align: center; position: relative; z-index: 10; margin-bottom: 30px;">
-    <p style="font-family: 'Cinzel', serif; letter-spacing: 4px; color: #B08E59; font-size: 0.85rem; margin-bottom: 10px;">THE 1ST BIRTHDAY</p>
+    <p style="font-family: 'Cinzel', serif; letter-spacing: 4px; color: #B08E59; font-size: 0.85rem; margin-bottom: 10px;">JIYEON'S 1ST BIRTHDAY</p>
     <h1 style="font-family: 'Gowun Batang', serif; color: #2C2C2C; font-size: 2.1rem; margin: 0; font-weight: 700; letter-spacing: -1px;">지연이의 첫 돌</h1>
     <div style="width: 30px; height: 1px; background: #D4AF37; margin: 20px auto;"></div>
     <p style="font-family: 'Gowun Batang', serif; color: #666; font-size: 0.95rem; line-height: 1.7; letter-spacing: 0.5px;">
-        가장 소중한 날, 지연이의 첫 번째<br>생일 파티에 귀한 발걸음 부탁드립니다.
+        가장 소중한 날, 지연이의 첫 번째<br>생일 파티에 여러분을 초대합니다.
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -60,7 +60,7 @@ album_html = f"""
 </style>
 <img id="m" src="{b64_photos[0]}">
 <div class="row">{thumbs}</div>
-<p class="cnt" id="c">IMAGE 01 / 04</p>
+<p class="cnt" id="c">01 / 04</p>
 <script>
     function s(el, src, i) {{
         const m = document.getElementById('m');
@@ -92,6 +92,6 @@ st.markdown("""
         <a href="https://map.kakao.com" target="_blank" style="flex: 1; text-decoration: none; color: #666; font-size: 0.75rem; border: 1px solid #DDD; padding: 12px 0; border-radius: 0px; letter-spacing: 1px; background: #FFF;">KAKAO MAP</a>
         <a href="https://map.naver.com" target="_blank" style="flex: 1; text-decoration: none; color: #666; font-size: 0.75rem; border: 1px solid #DDD; padding: 12px 0; border-radius: 0px; letter-spacing: 1px; background: #FFF;">NAVER MAP</a>
     </div>
-    <p style="color: #AAA; font-size: 0.8rem; margin-top: 50px; font-style: italic; letter-spacing: 1px;">With love and gratitude.</p>
+    <p style="color: #AAA; font-size: 0.8rem; margin-top: 50px; font-style: italic; letter-spacing: 1px;">귀한 발걸음 해주셔서 감사합니다</p>
 </div>
 """, unsafe_allow_html=True)
