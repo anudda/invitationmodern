@@ -38,7 +38,7 @@ st.markdown("""
     <h1 style="font-family: 'Gowun Batang', serif; color: #2C2C2C; font-size: 2.1rem; margin: 0; font-weight: 700; letter-spacing: -1px;">지연이의 첫 돌</h1>
     <div style="width: 30px; height: 1px; background: #D4AF37; margin: 20px auto;"></div>
     <p style="font-family: 'Gowun Batang', serif; color: #666; font-size: 0.95rem; line-height: 1.7; letter-spacing: 0.5px;">
-        가장 소중한 날, <br>아빠 윤진수와 엄마 김소연의 예쁜 딸 윤지연이의 <br> 첫 생일 파티에 여러분을 초대합니다.
+        가장 소중한 날, <br>아빠 윤진수와 엄마 김소연의 예쁜 딸 지연이의 <br> 첫 생일 파티에 여러분을 초대합니다.
     </p>
 </div>
 """, unsafe_allow_html=True)
