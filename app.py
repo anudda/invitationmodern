@@ -60,7 +60,7 @@ album_html = f"""
 </style>
 <img id="m" src="{b64_photos[0]}">
 <div class="row">{thumbs}</div>
-<p class="cnt" id="c">image 01 / 04</p>
+<p class="cnt" id="c">01 / 04</p>
 <script>
     function s(el, src, i) {{
         const m = document.getElementById('m');
