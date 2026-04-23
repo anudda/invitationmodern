@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 import base64
 
 # 1. 페이지 설정
-st.set_page_config(page_title="지연이의 돌잔치에 초대합니다", page_icon="✨", layout="centered")
+st.set_page_config(page_title="돌잔치 모던 시안", page_icon="✨", layout="centered")
 
 # [함수] 이미지 텍스트 변환
 def get_b64(path):
