@@ -60,7 +60,7 @@ album_html = f"""
 </style>
 <img id="m" src="{b64_photos[0]}">
 <div class="row">{thumbs}</div>
-<p class="cnt" id="c">01 / 04</p>
+<p class="cnt" id="c">image 01 / 04</p>
 <script>
     function s(el, src, i) {{
         const m = document.getElementById('m');
@@ -68,7 +68,7 @@ album_html = f"""
         setTimeout(() => {{
             m.src = src;
             m.style.opacity = 1;
-            document.getElementById('c').innerText = "IMAGE 0" + (i+1) + " / 04";
+            document.getElementById('c').innerText = "0" + (i+1) + " / 04";
         }}, 250);
         document.querySelectorAll('.t').forEach(t => t.classList.remove('active'));
         el.classList.add('active');
