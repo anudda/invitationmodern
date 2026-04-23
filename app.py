@@ -92,6 +92,6 @@ st.markdown("""
         <a href="https://map.kakao.com" target="_blank" style="flex: 1; text-decoration: none; color: #666; font-size: 0.75rem; border: 1px solid #DDD; padding: 12px 0; border-radius: 0px; letter-spacing: 1px; background: #FFF;">KAKAO MAP</a>
         <a href="https://map.naver.com" target="_blank" style="flex: 1; text-decoration: none; color: #666; font-size: 0.75rem; border: 1px solid #DDD; padding: 12px 0; border-radius: 0px; letter-spacing: 1px; background: #FFF;">NAVER MAP</a>
     </div>
-    <p style="color: #AAA; font-size: 0.8rem; margin-top: 50px; font-style: italic; letter-spacing: 1px;">귀한 발걸음 해주셔서 감사합니다</p>
+    <p style="color: #AAA; font-size: 0.8rem; margin-top: 50px; font-style: italic; letter-spacing: 1px;">With love and gratitude.</p>
 </div>
 """, unsafe_allow_html=True)
